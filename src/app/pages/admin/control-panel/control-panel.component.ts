@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { DetailModel } from 'src/app/models/detail';
+
 
 @Component({
   selector: 'app-control-panel',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./control-panel.component.scss']
 })
 export class ControlPanelComponent {
+
+
 
 }

@@ -1,0 +1,31 @@
+.cv-container {
+  background-color: rgb(112, 118, 118);
+  text-align: center;
+  padding: 20px;
+}
+
+.cv-container p {
+  font-size: 18px;
+}
+
+.cv-container img {
+  max-width: 25%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cv-container button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cv-container button:hover {
+  background-color: #0056b3;
+}

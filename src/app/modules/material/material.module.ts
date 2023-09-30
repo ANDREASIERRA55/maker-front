@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {MatButtonModule} from '@angular/material/button';
+import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
+import { NgOptimizedImage } from '@angular/common'
 
 
 const materialModules = [MatButtonModule]
@@ -14,7 +15,8 @@ const materialModules = [MatButtonModule]
     CommonModule,
     MatInputModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    NgOptimizedImage
   ],
   exports: [
     materialModules

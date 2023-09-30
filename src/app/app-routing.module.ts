@@ -12,23 +12,14 @@ import { EditEducationComponent } from './pages/admin/edit-education/edit-educat
 
 
 const routes: Routes = [
-{path: "", component: HomeComponent,
-  pathMatch: 'full',},
-{path:"cv", component: CvComponent,
-},
-{path:"admin",component: ControlPanelComponent,
-},
-{path:"edit-job",component: NewJobComponent,
-},
-{path:"new-education",component: NewEducationComponent,
-},
-{path:"edit-details",component: EditDetailsComponent,
-},
-{path:"edit-job",component: EditJobComponent,
-},
-{path:"edit-education",component: EditEducationComponent,
-}
-
+  { path: "", component: HomeComponent, pathMatch: 'full' },
+  { path: "cv", component: CvComponent },
+  { path: "admin", component: ControlPanelComponent },
+  { path: "new-job", component: NewJobComponent },
+  { path: "new-education", component: NewEducationComponent },
+  { path: "edit-details", component: EditDetailsComponent },
+  { path: "edit-job", component: EditJobComponent },
+  { path: "edit-education", component: EditEducationComponent }
 ];
 
 @NgModule({

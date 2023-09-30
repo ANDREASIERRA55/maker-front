@@ -1,3 +1,27 @@
 <div>
-  <h1>Hola Mundo</h1>
+  <h1>Hola chavaleria</h1>
+  <nav>
+    <ul>
+      <li>
+        <a
+          routerLink="/cv"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+        >
+          Cv Component
+        </a>
+      </li>
+      <li>
+        <a
+          routerLink="/control-panel"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+        >
+          Admin Component
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- The routed views render in the <router-outlet>-->
+  <router-outlet> </router-outlet>
 </div>

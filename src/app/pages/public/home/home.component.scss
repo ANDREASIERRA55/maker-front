@@ -1,0 +1,25 @@
+.home-container {
+  background-image: url("/src/assets/img/fondo_landing.png");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: bisque;
+}
+
+.welcome-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.mat-raised-button {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.greeting-text {
+  font-size: 18px;
+  margin-top: 20px;
+}

@@ -7,9 +7,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PublicComponent } from './pages/public/public.component';
 import { AdminComponent } from './pages/admin/admin.component';
-import { DetailComponent } from './models/detail/detail.component';
-import { EducationComponent } from './models/education/education.component';
-import { JobComponent } from './models/job/job.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ControlPanelComponent } from './pages/admin/control-panel/control-panel.component';
 import { EditDetailsComponent } from './pages/admin/edit-details/edit-details.component';
@@ -20,6 +17,7 @@ import { NewJobComponent } from './pages/admin/new-job/new-job.component';
 import { CvComponent } from './pages/public/cv/cv.component';
 import { MaterialModule } from './modules/material/material.module';
 import { HttpClientModule } from '@angular/common/http';
+import { NgOptimizedImage } from '@angular/common'
 
 @NgModule({
   declarations: [
@@ -27,9 +25,6 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     PublicComponent,
     AdminComponent,
-    DetailComponent,
-    EducationComponent,
-    JobComponent,
     FooterComponent,
     ControlPanelComponent,
     EditDetailsComponent,
@@ -37,14 +32,15 @@ import { HttpClientModule } from '@angular/common/http';
     EditJobComponent,
     NewEducationComponent,
     NewJobComponent,
-    CvComponent
+    CvComponent,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
-    MaterialModule
+    MaterialModule,
+    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]
